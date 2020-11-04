@@ -1,0 +1,24 @@
+foreach map some every filter 
+
+relative 相对 配合 left bottom right top  absolute 绝对 如果父元素没给相对 它就相对与body 如果父元素给了 就相对与父元素
+
+display：block line-height ：0 vertical-align bottom
+
+display ：none  visibility：hiddle
+自身就有间隙
+
+directives 指令 局部 directive全局 vue.directive(id,{})
+
+keep-alive 是vue中自带的组件 它可以使被包含的组件保留状态 避免重新渲染
+
+加个key值的作用就是diff算法能够准确的找到要替换的节点的位置 从而替换掉它
+
+computed 可以简单的帮我们处理一些简单的运算 如果过多的放入方法里 会难以维护
+
+$route 是局部路由 $router 是全局路由
+
+当DOM元素 加载完时 DOM树构建完成时 jq允许你执行代码  	它可以提高页面的加载速度
+
+$('select option:selected').val() $('select option:selected').text（）
+
+link import ‘lujing’
